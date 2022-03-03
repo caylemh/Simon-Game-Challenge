@@ -1,6 +1,7 @@
 body {
   text-align: center;
   background-color: #011F3F;
+  transition: all 0.5s ease-in;
 }
 
 #level-title {
@@ -24,6 +25,7 @@ body {
   width: 200px;
   border: 10px solid black;
   border-radius: 20%;
+  box-shadow: 0 10px 20px black;
 }
 
 .game-over {
@@ -50,4 +52,5 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+  transform: scale(110%);
 }
